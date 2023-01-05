@@ -21,7 +21,10 @@ Para front-end:
 
 # Ferramentas:
 	-Para edição de texto e a programação em si foi utilizada a IDE Visual Studio; 
- 
+	
+ # Banco de dados:
+	user : MysqlRoot
+	key : Mudar#123 
 
 # Contato: 
 	Eduardo Guedes
