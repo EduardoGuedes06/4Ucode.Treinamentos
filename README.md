@@ -31,7 +31,3 @@ Para front-end:
 	 eduardoguedeslibra@gmail.com
 	 www.linkedin.com/in/eduardo-guedes-867749219/
 
-    Amanda Luiza Silva
-     luiza.amandasilvah@gmail.com
-     www.linkedin.com/in/amanda-luizay
-
