@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Treinamentos.Api.Migrations
 {
-    public partial class Initial_Identity : Migration
+    public partial class Initial_identity : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

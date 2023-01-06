@@ -278,3 +278,10 @@ C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\obj\Debug\net6.0\Treinamentos.Api.pdb
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\obj\Debug\net6.0\Treinamentos.Api.genruntimeconfig.cache
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\obj\Debug\net6.0\ref\Treinamentos.Api.dll
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\FluentValidation.dll
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\Treinamentos.Domain.dll
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\Treinamentos.Domain.pdb
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\Treinamentos.Service.dll
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\Treinamentos.Service.pdb

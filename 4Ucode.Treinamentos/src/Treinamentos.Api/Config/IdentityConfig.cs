@@ -1,9 +1,9 @@
-﻿using Banco.ApiCore.Data;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Treinamentos.Api.Data;
 using Treinamentos.Api.Extensions;
 
 namespace Treinamentos.Api.Config
@@ -15,7 +15,7 @@ namespace Treinamentos.Api.Config
         {
             services.AddDbContext<ApplicationDbContext>(options =>
             {
-                options.UseMySql("server=mysql-banco-api.mysql.database.azure.com;initial catalog=4UcodeTreinamentosDB;uid=MysqlRoot;pwd=Mudar#123",
+                options.UseMySql("server=mysql-banco-api.mysql.database.azure.com;initial catalog=TreinamentosDB;uid=MysqlRoot;pwd=Mudar#123",
                 Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.0-mysql")).UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
             });
 

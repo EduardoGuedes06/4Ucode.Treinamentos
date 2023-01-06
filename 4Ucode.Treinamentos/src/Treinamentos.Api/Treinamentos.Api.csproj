@@ -33,7 +33,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Model\" />
+    <ProjectReference Include="..\Treinamentos.Service\Treinamentos.Service.csproj" />
   </ItemGroup>
 
 </Project>

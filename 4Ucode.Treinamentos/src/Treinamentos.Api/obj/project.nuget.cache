@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "MLmpG5ca3aYSDwd3/9CDrKycKU+7b/BFMDA+ayFJvMdug9brPFqApoDSddOsbDSI9GXFllIkqZlB16lfzIxooQ==",
+  "dgSpecHash": "93qMu+ogFurcMQVTRoz7FEVYQRNIVQVDlwTgqrYGRljdFMCNFNNjTLISRCPI4oDnJ7T0ZRCU6ScVHYj2NNlzgw==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\C#\\PROJETOS 4UCode\\AZURE\\4Ucode.Treinamentos\\4Ucode.Treinamentos\\src\\Treinamentos.Api\\Treinamentos.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

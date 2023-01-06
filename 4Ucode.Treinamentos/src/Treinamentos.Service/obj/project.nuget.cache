@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "nwu9zLWEjhKphxXkfncd91iQc1k2pwnGb1aOqUzsXaQ+uxd7JEfRuP1TTGQlq9mq358YavhXIT+MlzS92R01MA==",
+  "dgSpecHash": "wZu3fdPkjB2Kw/YC7STU+tnqvnLZvjPVVYD7u0SyxwLaYqATTJXpFJfm1Ji6CJ6gF4wFLEFwuVxV7ZsuBD/Phg==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\C#\\PROJETOS 4UCode\\AZURE\\4Ucode.Treinamentos\\4Ucode.Treinamentos\\src\\Treinamentos.Service\\Treinamentos.Service.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
