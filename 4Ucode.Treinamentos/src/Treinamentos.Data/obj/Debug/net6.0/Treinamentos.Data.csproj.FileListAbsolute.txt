@@ -1,0 +1,5 @@
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\obj\Debug\net6.0\Treinamentos.Data.csproj.AssemblyReference.cache
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\obj\Debug\net6.0\Treinamentos.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\obj\Debug\net6.0\Treinamentos.Data.AssemblyInfoInputs.cache
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\obj\Debug\net6.0\Treinamentos.Data.AssemblyInfo.cs
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\obj\Debug\net6.0\Treinamentos.Data.csproj.CoreCompileInputs.cache
