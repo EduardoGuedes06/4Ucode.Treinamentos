@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\C#\\PROJETOS 4UCode\\4Ucode.Treinamentos\\4Ucode.Treinamentos\\Treinamentos.Data\\Treinamentos.Data.csproj",
+      "projectUniqueName": "C:\\Projetos\\C#\\PROJETOS 4UCode\\AZURE\\4Ucode.Treinamentos\\4Ucode.Treinamentos\\src\\Treinamentos.Data\\Treinamentos.Data.csproj",
       "projectName": "Treinamentos.Data",
-      "projectPath": "C:\\Projetos\\C#\\PROJETOS 4UCode\\4Ucode.Treinamentos\\4Ucode.Treinamentos\\Treinamentos.Data\\Treinamentos.Data.csproj",
+      "projectPath": "C:\\Projetos\\C#\\PROJETOS 4UCode\\AZURE\\4Ucode.Treinamentos\\4Ucode.Treinamentos\\src\\Treinamentos.Data\\Treinamentos.Data.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\C#\\PROJETOS 4UCode\\4Ucode.Treinamentos\\4Ucode.Treinamentos\\Treinamentos.Data\\obj\\",
+      "outputPath": "C:\\Projetos\\C#\\PROJETOS 4UCode\\AZURE\\4Ucode.Treinamentos\\4Ucode.Treinamentos\\src\\Treinamentos.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
