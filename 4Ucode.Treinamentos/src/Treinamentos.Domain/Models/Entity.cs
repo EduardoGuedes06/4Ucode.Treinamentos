@@ -13,5 +13,6 @@
 
         public DateTime DataCadastro { get; set; }
         public Guid Id { get; set; }
+        
     }
 }
