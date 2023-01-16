@@ -4,6 +4,7 @@ C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\obj\Debug\net6.0\Treinamentos.Api.AssemblyInfo.cs
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\obj\Debug\net6.0\Treinamentos.Api.csproj.CoreCompileInputs.cache
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\obj\Debug\net6.0\Treinamentos.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\obj\Debug\net6.0\Treinamentos.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\appsettings.Development.json
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\appsettings.json
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\Treinamentos.Api.staticwebassets.runtime.json
@@ -14,6 +15,9 @@ C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\Treinamentos.Api.pdb
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\AutoMapper.dll
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\FluentValidation.dll
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\Humanizer.dll
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\MessagePack.dll
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\MessagePack.Annotations.dll
@@ -268,7 +272,12 @@ C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\obj\Debug\net6.0\Treinamentos.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\Treinamentos.Data.dll
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\Treinamentos.Domain.dll
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\Treinamentos.Service.dll
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\Treinamentos.Data.pdb
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\Treinamentos.Domain.pdb
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\Treinamentos.Service.pdb
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\obj\Debug\net6.0\staticwebassets.build.json
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\obj\Debug\net6.0\staticwebassets.development.json
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\obj\Debug\net6.0\scopedcss\bundle\Treinamentos.Api.styles.css
@@ -278,10 +287,3 @@ C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\obj\Debug\net6.0\Treinamentos.Api.pdb
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\obj\Debug\net6.0\Treinamentos.Api.genruntimeconfig.cache
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\obj\Debug\net6.0\ref\Treinamentos.Api.dll
-C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\FluentValidation.dll
-C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
-C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
-C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\Treinamentos.Domain.dll
-C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\Treinamentos.Domain.pdb
-C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\Treinamentos.Service.dll
-C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\Treinamentos.Service.pdb

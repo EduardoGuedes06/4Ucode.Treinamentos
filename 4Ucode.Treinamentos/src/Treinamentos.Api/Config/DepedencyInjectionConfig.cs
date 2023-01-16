@@ -1,6 +1,10 @@
 ﻿using Business.Notificacoes;
+using Data.context;
+using Data.repository;
 using Domain.Interfaces;
 using Treinamentos.Api.Extensions;
+using Treinamentos.Domain.Interfaces;
+using Treinamentos.Service.Services;
 
 namespace Treinamentos.Api.Config
 {
@@ -8,13 +12,13 @@ namespace Treinamentos.Api.Config
     {
         public static IServiceCollection ResolveDependencies(this IServiceCollection services)
         {
-            //services.AddScoped<MeuDbContext>();
+            services.AddScoped<MeuDbContext>();
 
-            //services.AddScoped<IProdutoRepository, ProdutoRepository>();
-            //services.AddScoped<IProdutoService, ProdutoService>();
+            services.AddScoped<IAlunoRepository, AlunoRepository>();
+            services.AddScoped<IAlunoService, AlunoService>();
 
-           // services.AddScoped<ICategoriaRepository, CategoriaRepository>();
-            //services.AddScoped<ICategoriaService, CategoriaService>();
+            services.AddScoped<IDocumentoRepository, DocumentoRepository>();
+            services.AddScoped<IDocumentoService, DocumentoService>();
 
             services.AddScoped<INotificador, Notificador>();
 

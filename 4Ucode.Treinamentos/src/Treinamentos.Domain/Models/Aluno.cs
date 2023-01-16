@@ -1,7 +1,7 @@
 ﻿using Domain.Models;
 using System.ComponentModel.DataAnnotations;
 
-namespace Treinamentos.Api.ViewModel
+namespace Treinamentos.Domain.Model
 {
     public class Aluno : Entity
     {

@@ -1983,10 +1983,10 @@
           }
         }
       },
-      "NuGet.Common/6.2.1": {
+      "NuGet.Common/6.3.0": {
         "type": "package",
         "dependencies": {
-          "NuGet.Frameworks": "6.2.1"
+          "NuGet.Frameworks": "6.3.0"
         },
         "compile": {
           "lib/netstandard2.0/NuGet.Common.dll": {
@@ -1999,10 +1999,10 @@
           }
         }
       },
-      "NuGet.Configuration/6.2.1": {
+      "NuGet.Configuration/6.3.0": {
         "type": "package",
         "dependencies": {
-          "NuGet.Common": "6.2.1",
+          "NuGet.Common": "6.3.0",
           "System.Security.Cryptography.ProtectedData": "4.4.0"
         },
         "compile": {
@@ -2033,7 +2033,7 @@
           }
         }
       },
-      "NuGet.Frameworks/6.2.1": {
+      "NuGet.Frameworks/6.3.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/NuGet.Frameworks.dll": {
@@ -2063,12 +2063,12 @@
           }
         }
       },
-      "NuGet.Packaging/6.2.1": {
+      "NuGet.Packaging/6.3.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
-          "NuGet.Configuration": "6.2.1",
-          "NuGet.Versioning": "6.2.1",
+          "NuGet.Configuration": "6.3.0",
+          "NuGet.Versioning": "6.3.0",
           "System.Security.Cryptography.Cng": "5.0.0",
           "System.Security.Cryptography.Pkcs": "5.0.0"
         },
@@ -2099,10 +2099,10 @@
           }
         }
       },
-      "NuGet.Protocol/5.11.0": {
+      "NuGet.Protocol/6.3.0": {
         "type": "package",
         "dependencies": {
-          "NuGet.Packaging": "5.11.0"
+          "NuGet.Packaging": "6.3.0"
         },
         "compile": {
           "lib/net5.0/NuGet.Protocol.dll": {
@@ -2115,7 +2115,7 @@
           }
         }
       },
-      "NuGet.Versioning/6.2.1": {
+      "NuGet.Versioning/6.3.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/NuGet.Versioning.dll": {
@@ -3850,6 +3850,23 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
+        }
+      },
+      "Treinamentos.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9",
+          "NuGet.Protocol": "6.3.0",
+          "Treinamentos.Domain": "1.0.0",
+          "Treinamentos.Service": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Treinamentos.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Treinamentos.Data.dll": {}
         }
       },
       "Treinamentos.Domain/1.0.0": {
@@ -6379,41 +6396,37 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
-    "NuGet.Common/6.2.1": {
-      "sha512": "qmC7zVUdYaz1lE4tw4dceTFnmVho36tut8R/gvxLIixtjGhIZDIvdo4wUUIDLXrDxublaQYMay1+QotTOUIj8g==",
+    "NuGet.Common/6.3.0": {
+      "sha512": "L/Fz6+UwUP+fO70h+0s071iG2PFjfMWhttWCcvy22xNWptyhqAQz+Z4KDoHB9XnO7gVhSERTbJ43rVxUv1ZCQQ==",
       "type": "package",
-      "path": "nuget.common/6.2.1",
+      "path": "nuget.common/6.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "icon.png",
-        "lib/net45/NuGet.Common.dll",
-        "lib/net45/NuGet.Common.xml",
         "lib/net472/NuGet.Common.dll",
         "lib/net472/NuGet.Common.xml",
         "lib/netstandard2.0/NuGet.Common.dll",
         "lib/netstandard2.0/NuGet.Common.xml",
-        "nuget.common.6.2.1.nupkg.sha512",
+        "nuget.common.6.3.0.nupkg.sha512",
         "nuget.common.nuspec"
       ]
     },
-    "NuGet.Configuration/6.2.1": {
-      "sha512": "tz0p+IlXydW+flKLSzB9me8fgCgOWrzgCx6zq/YHFzlTVFkcqi6RmZbk0qum1nk/HTzc9IjtEw+s//7/0pTkeg==",
+    "NuGet.Configuration/6.3.0": {
+      "sha512": "+DgS8ctWjM8vMJ28V+SoRLBKFJYAlhfEV4tGybETksDR81T4pdv8AdT2g3eH31z0tfuTyyOpMfUrnddDkHKWVg==",
       "type": "package",
-      "path": "nuget.configuration/6.2.1",
+      "path": "nuget.configuration/6.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "icon.png",
-        "lib/net45/NuGet.Configuration.dll",
-        "lib/net45/NuGet.Configuration.xml",
         "lib/net472/NuGet.Configuration.dll",
         "lib/net472/NuGet.Configuration.xml",
         "lib/netstandard2.0/NuGet.Configuration.dll",
         "lib/netstandard2.0/NuGet.Configuration.xml",
-        "nuget.configuration.6.2.1.nupkg.sha512",
+        "nuget.configuration.6.3.0.nupkg.sha512",
         "nuget.configuration.nuspec"
       ]
     },
@@ -6435,22 +6448,20 @@
         "nuget.dependencyresolver.core.nuspec"
       ]
     },
-    "NuGet.Frameworks/6.2.1": {
-      "sha512": "J5AlfS/XIhPIODuAgdh+/anL08M5aZG/wW5TXsNQW5MfRhgVHkCiN/9/MHAzA1BXccchlTjL/uVRL7DVH56LRw==",
+    "NuGet.Frameworks/6.3.0": {
+      "sha512": "JW/WMvvRatkZDQiK/E43P+xuaoYH7slTS36noFcubBGk2NL9rAKU+tWeudBAuzOjYRp1FJdzjo9b86/dZO56iw==",
       "type": "package",
-      "path": "nuget.frameworks/6.2.1",
+      "path": "nuget.frameworks/6.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "icon.png",
-        "lib/net40/NuGet.Frameworks.dll",
-        "lib/net40/NuGet.Frameworks.xml",
         "lib/net472/NuGet.Frameworks.dll",
         "lib/net472/NuGet.Frameworks.xml",
         "lib/netstandard2.0/NuGet.Frameworks.dll",
         "lib/netstandard2.0/NuGet.Frameworks.xml",
-        "nuget.frameworks.6.2.1.nupkg.sha512",
+        "nuget.frameworks.6.3.0.nupkg.sha512",
         "nuget.frameworks.nuspec"
       ]
     },
@@ -6470,10 +6481,10 @@
         "nuget.librarymodel.nuspec"
       ]
     },
-    "NuGet.Packaging/6.2.1": {
-      "sha512": "uZ4lR9/x9X7uQ1uS8yak+oC803S/CzUzNvRAQ6A5FdBdvVxvTj95s0pYx9vCNVHNtXz/DHK1lbQvxVgYNlelQA==",
+    "NuGet.Packaging/6.3.0": {
+      "sha512": "nZoKxL0HkG9B4vGBZHikh/0kRdy2/X824l/hPXNQ+Hybi17RsuI0i6Tz/maUAS4OUboc6vUbGrxpr1xEHJsTeQ==",
       "type": "package",
-      "path": "nuget.packaging/6.2.1",
+      "path": "nuget.packaging/6.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6485,7 +6496,7 @@
         "lib/net5.0/NuGet.Packaging.xml",
         "lib/netstandard2.0/NuGet.Packaging.dll",
         "lib/netstandard2.0/NuGet.Packaging.xml",
-        "nuget.packaging.6.2.1.nupkg.sha512",
+        "nuget.packaging.6.3.0.nupkg.sha512",
         "nuget.packaging.nuspec"
       ]
     },
@@ -6507,13 +6518,14 @@
         "nuget.projectmodel.nuspec"
       ]
     },
-    "NuGet.Protocol/5.11.0": {
-      "sha512": "eS/sJLqMzPz6gonD1zaXIcpDME/1DuKqv0Hlag8RuJcboZJliA15qjfg7UvuQB8/ineOleaEvrTzMjpKE0FdbQ==",
+    "NuGet.Protocol/6.3.0": {
+      "sha512": "4hp7afdt4wKmmFD93hb+aOweBUPBfGMJZuNvSjllvh2gHeIlP7+IWmWpigmNLSPCuDF6zAGW/FFjYHRG1YCNmw==",
       "type": "package",
-      "path": "nuget.protocol/5.11.0",
+      "path": "nuget.protocol/6.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "README.md",
         "icon.png",
         "lib/net472/NuGet.Protocol.dll",
         "lib/net472/NuGet.Protocol.xml",
@@ -6521,26 +6533,24 @@
         "lib/net5.0/NuGet.Protocol.xml",
         "lib/netstandard2.0/NuGet.Protocol.dll",
         "lib/netstandard2.0/NuGet.Protocol.xml",
-        "nuget.protocol.5.11.0.nupkg.sha512",
+        "nuget.protocol.6.3.0.nupkg.sha512",
         "nuget.protocol.nuspec"
       ]
     },
-    "NuGet.Versioning/6.2.1": {
-      "sha512": "+o507LXjsN1YVAgmpqKCQZ70cLsXDoVmR8H0Wgy0muiFnOhkXN2+a6PGFBAIuA7qJch/umTYu1hp7Dlh1Qcrgg==",
+    "NuGet.Versioning/6.3.0": {
+      "sha512": "9cQMmhbwR92SSep1y4MMapjrJdcnzcnSWHec3yrB9EMyIjOhiXkwYX9lZ8fkYUxBskwXw8mAEwvY8b7yGRFbAg==",
       "type": "package",
-      "path": "nuget.versioning/6.2.1",
+      "path": "nuget.versioning/6.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "icon.png",
-        "lib/net45/NuGet.Versioning.dll",
-        "lib/net45/NuGet.Versioning.xml",
         "lib/net472/NuGet.Versioning.dll",
         "lib/net472/NuGet.Versioning.xml",
         "lib/netstandard2.0/NuGet.Versioning.dll",
         "lib/netstandard2.0/NuGet.Versioning.xml",
-        "nuget.versioning.6.2.1.nupkg.sha512",
+        "nuget.versioning.6.3.0.nupkg.sha512",
         "nuget.versioning.nuspec"
       ]
     },
@@ -10594,6 +10604,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "Treinamentos.Data/1.0.0": {
+      "type": "project",
+      "path": "../Treinamentos.Data/Treinamentos.Data.csproj",
+      "msbuildProject": "../Treinamentos.Data/Treinamentos.Data.csproj"
+    },
     "Treinamentos.Domain/1.0.0": {
       "type": "project",
       "path": "../Treinamentos.Domain/Treinamentos.Domain.csproj",
@@ -10624,6 +10639,8 @@
       "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore >= 6.0.9",
       "Pomelo.EntityFrameworkCore.MySql >= 6.0.2",
       "Swashbuckle.AspNetCore >= 6.4.0",
+      "Treinamentos.Data >= 1.0.0",
+      "Treinamentos.Domain >= 1.0.0",
       "Treinamentos.Service >= 1.0.0"
     ]
   },
@@ -10659,6 +10676,12 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Projetos\\C#\\PROJETOS 4UCode\\AZURE\\4Ucode.Treinamentos\\4Ucode.Treinamentos\\src\\Treinamentos.Data\\Treinamentos.Data.csproj": {
+              "projectPath": "C:\\Projetos\\C#\\PROJETOS 4UCode\\AZURE\\4Ucode.Treinamentos\\4Ucode.Treinamentos\\src\\Treinamentos.Data\\Treinamentos.Data.csproj"
+            },
+            "C:\\Projetos\\C#\\PROJETOS 4UCode\\AZURE\\4Ucode.Treinamentos\\4Ucode.Treinamentos\\src\\Treinamentos.Domain\\Treinamentos.Domain.csproj": {
+              "projectPath": "C:\\Projetos\\C#\\PROJETOS 4UCode\\AZURE\\4Ucode.Treinamentos\\4Ucode.Treinamentos\\src\\Treinamentos.Domain\\Treinamentos.Domain.csproj"
+            },
             "C:\\Projetos\\C#\\PROJETOS 4UCode\\AZURE\\4Ucode.Treinamentos\\4Ucode.Treinamentos\\src\\Treinamentos.Service\\Treinamentos.Service.csproj": {
               "projectPath": "C:\\Projetos\\C#\\PROJETOS 4UCode\\AZURE\\4Ucode.Treinamentos\\4Ucode.Treinamentos\\src\\Treinamentos.Service\\Treinamentos.Service.csproj"
             }

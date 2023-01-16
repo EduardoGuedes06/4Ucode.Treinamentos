@@ -1,0 +1,8 @@
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Service\bin\Debug\net6.0\publish\Treinamentos.Service.dll
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Service\bin\Debug\net6.0\publish\Treinamentos.Service.deps.json
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Service\bin\Debug\net6.0\publish\Treinamentos.Service.pdb
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Service\bin\Debug\net6.0\publish\FluentValidation.dll
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Service\bin\Debug\net6.0\publish\FluentValidation.AspNetCore.dll
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Service\bin\Debug\net6.0\publish\FluentValidation.DependencyInjectionExtensions.dll
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Service\bin\Debug\net6.0\publish\Treinamentos.Domain.dll
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Service\bin\Debug\net6.0\publish\Treinamentos.Domain.pdb

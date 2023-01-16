@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Domain.Models;
+using System.ComponentModel.DataAnnotations;
 
-namespace Treinamentos.Api.ViewModel
+namespace Treinamentos.Domain.Model
 {
-    public class Documento
+    public class Documento : Entity
     {
         public string Descricao { get; set; }
     }

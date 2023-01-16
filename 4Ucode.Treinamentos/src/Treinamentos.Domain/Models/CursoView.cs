@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Treinamentos.Api.ViewModel
+namespace Treinamentos.Domain.Model
 {
     public class CursoView
     {

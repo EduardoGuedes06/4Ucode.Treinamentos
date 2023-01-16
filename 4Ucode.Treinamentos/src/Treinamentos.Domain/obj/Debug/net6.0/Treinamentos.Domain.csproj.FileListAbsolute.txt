@@ -1,11 +1,11 @@
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Domain\bin\Debug\net6.0\Treinamentos.Domain.deps.json
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Domain\bin\Debug\net6.0\Treinamentos.Domain.dll
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Domain\bin\Debug\net6.0\Treinamentos.Domain.pdb
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Domain\obj\Debug\net6.0\Treinamentos.Domain.csproj.AssemblyReference.cache
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Domain\obj\Debug\net6.0\Treinamentos.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Domain\obj\Debug\net6.0\Treinamentos.Domain.AssemblyInfoInputs.cache
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Domain\obj\Debug\net6.0\Treinamentos.Domain.AssemblyInfo.cs
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Domain\obj\Debug\net6.0\Treinamentos.Domain.csproj.CoreCompileInputs.cache
-C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Domain\bin\Debug\net6.0\Treinamentos.Domain.deps.json
-C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Domain\bin\Debug\net6.0\Treinamentos.Domain.dll
-C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Domain\bin\Debug\net6.0\Treinamentos.Domain.pdb
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Domain\obj\Debug\net6.0\Treinamentos.Domain.dll
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Domain\obj\Debug\net6.0\refint\Treinamentos.Domain.dll
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Domain\obj\Debug\net6.0\Treinamentos.Domain.pdb

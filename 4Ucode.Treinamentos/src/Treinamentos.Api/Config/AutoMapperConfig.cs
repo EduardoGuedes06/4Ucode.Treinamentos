@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
-
+using Treinamentos.Api.ViewModel;
+using Treinamentos.Domain.Model;
 
 namespace Treinamentos.Api.Config
 {
@@ -7,6 +8,8 @@ namespace Treinamentos.Api.Config
     {
         public AutomapperConfig()
         {
+            CreateMap<AlunoViewModel, Aluno>().ReverseMap();
+            CreateMap<DocumentoViewModel, Documento>().ReverseMap();
 
         }
     }
