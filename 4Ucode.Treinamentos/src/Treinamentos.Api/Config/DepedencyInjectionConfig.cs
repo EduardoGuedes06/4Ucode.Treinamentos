@@ -20,6 +20,12 @@ namespace Treinamentos.Api.Config
             services.AddScoped<IDocumentoRepository, DocumentoRepository>();
             services.AddScoped<IDocumentoService, DocumentoService>();
 
+            services.AddScoped<ICategoriaRepository, CategoriaRepository>();
+            services.AddScoped<ICategoriaService,CategoriaService>();
+
+            services.AddScoped<IFormacaoRepository, FormacaoRepository>();
+            services.AddScoped<IFormacaoService, FormacaoService>();
+
             services.AddScoped<INotificador, Notificador>();
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();

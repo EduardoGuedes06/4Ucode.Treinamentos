@@ -1,8 +1,3 @@
-C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\obj\Debug\net6.0\Treinamentos.Data.csproj.AssemblyReference.cache
-C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\obj\Debug\net6.0\Treinamentos.Data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\obj\Debug\net6.0\Treinamentos.Data.AssemblyInfoInputs.cache
-C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\obj\Debug\net6.0\Treinamentos.Data.AssemblyInfo.cs
-C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\obj\Debug\net6.0\Treinamentos.Data.csproj.CoreCompileInputs.cache
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\bin\Debug\net6.0\Treinamentos.Data.deps.json
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\bin\Debug\net6.0\Treinamentos.Data.runtimeconfig.json
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\bin\Debug\net6.0\Treinamentos.Data.dll
@@ -11,6 +6,11 @@ C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\bin\Debug\net6.0\Treinamentos.Service.dll
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\bin\Debug\net6.0\Treinamentos.Domain.pdb
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\bin\Debug\net6.0\Treinamentos.Service.pdb
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\obj\Debug\net6.0\Treinamentos.Data.csproj.AssemblyReference.cache
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\obj\Debug\net6.0\Treinamentos.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\obj\Debug\net6.0\Treinamentos.Data.AssemblyInfoInputs.cache
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\obj\Debug\net6.0\Treinamentos.Data.AssemblyInfo.cs
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\obj\Debug\net6.0\Treinamentos.Data.csproj.CoreCompileInputs.cache
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\obj\Debug\net6.0\Treinamentos.Data.csproj.CopyComplete
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\obj\Debug\net6.0\Treinamentos.Data.dll
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Data\obj\Debug\net6.0\refint\Treinamentos.Data.dll

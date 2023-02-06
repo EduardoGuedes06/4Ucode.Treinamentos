@@ -11,10 +11,13 @@ namespace Data.context
 
             public DbSet<Aluno> Alunos { get; set; }
             public DbSet<Documento> Documentos { get; set; }
-            
+
+            public DbSet<Categoria> Categorias { get; set; }
+            public DbSet<Formacao> Formacoes { get; set; }
+
         //..................................................
 
-            protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
             {
                 foreach (var property in modelBuilder.Model.GetEntityTypes()
                     .SelectMany(e => e.GetProperties()

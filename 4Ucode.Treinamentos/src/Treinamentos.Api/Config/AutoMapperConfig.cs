@@ -10,7 +10,8 @@ namespace Treinamentos.Api.Config
         {
             CreateMap<AlunoViewModel, Aluno>().ReverseMap();
             CreateMap<DocumentoViewModel, Documento>().ReverseMap();
-
+            CreateMap<CategoriaViewModel, Categoria>().ReverseMap();
+            CreateMap<FormacaoViewModel, Formacao>().ReverseMap();
         }
     }
 }

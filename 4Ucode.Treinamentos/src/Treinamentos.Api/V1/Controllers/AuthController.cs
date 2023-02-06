@@ -1,135 +1,135 @@
-﻿using Domain.Interfaces;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.Tokens;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
-using Treinamentos.Api.Controllers;
-using Treinamentos.Api.Extensions;
-using Treinamentos.Api.ViewModel;
+﻿//using Domain.Interfaces;
+//using Microsoft.AspNetCore.Identity;
+//using Microsoft.AspNetCore.Mvc;
+//using Microsoft.Extensions.Options;
+//using Microsoft.IdentityModel.Tokens;
+//using System.IdentityModel.Tokens.Jwt;
+//using System.Security.Claims;
+//using System.Text;
+//using Treinamentos.Api.Controllers;
+//using Treinamentos.Api.Extensions;
+//using Treinamentos.Api.ViewModel;
 
-namespace Treinamentos.Api.V1.Controllers
-{
-    [Route("api/autenticação")]
-    public class AuthController : MainController
-    {
-        private readonly SignInManager<IdentityUser> _signInManager;
-        private readonly UserManager<IdentityUser> _userManager;
-        private readonly AppSettings _appSettings;
-        private readonly ILogger _logger;
+//namespace Treinamentos.Api.V1.Controllers
+//{
+//    [Route("api/autenticação")]
+//    public class AuthController : MainController
+//    {
+//        private readonly SignInManager<IdentityUser> _signInManager;
+//        private readonly UserManager<IdentityUser> _userManager;
+//        private readonly AppSettings _appSettings;
+//        private readonly ILogger _logger;
 
-        public AuthController(INotificador notificador,
-                              SignInManager<IdentityUser> signInManager,
-                              UserManager<IdentityUser> userManager,
-                              IOptions<AppSettings> appSettings,
-                              IUser user, ILogger<AuthController> logger) : base(notificador, user)
-        {
-            _signInManager = signInManager;
-            _userManager = userManager;
-            _logger = logger;
-            _appSettings = appSettings.Value;
-        }
+//        public AuthController(INotificador notificador,
+//                              SignInManager<IdentityUser> signInManager,
+//                              UserManager<IdentityUser> userManager,
+//                              IOptions<AppSettings> appSettings,
+//                              IUser user, ILogger<AuthController> logger) : base(notificador, user)
+//        {
+//            _signInManager = signInManager;
+//            _userManager = userManager;
+//            _logger = logger;
+//            _appSettings = appSettings.Value;
+//        }
 
-        //[EnableCors("Development")]
-        [HttpPost("nova-conta")]
-        public async Task<ActionResult> Registrar(RegisterUserViewModel registerUser)
-        {
-            if (!ModelState.IsValid) return CostumResponse(ModelState);
+//        //[EnableCors("Development")]
+//        [HttpPost("nova-conta")]
+//        public async Task<ActionResult> Registrar(RegisterUserViewModel registerUser)
+//        {
+//            if (!ModelState.IsValid) return CostumResponse(ModelState);
 
-            var user = new IdentityUser
-            {
-                UserName = registerUser.Email,
-                Email = registerUser.Email,
-                EmailConfirmed = true
-            };
+//            var user = new IdentityUser
+//            {
+//                UserName = registerUser.Email,
+//                Email = registerUser.Email,
+//                EmailConfirmed = true
+//            };
 
-            var result = await _userManager.CreateAsync(user, registerUser.Password);
-            if (result.Succeeded)
-            {
-                await _signInManager.SignInAsync(user, false);
-                return CostumResponse(await GerarJwt(user.Email));
-            }
-            foreach (var error in result.Errors)
-            {
-                NotificarErro(error.Description);
-            }
+//            var result = await _userManager.CreateAsync(user, registerUser.Password);
+//            if (result.Succeeded)
+//            {
+//                await _signInManager.SignInAsync(user, false);
+//                return CostumResponse(await GerarJwt(user.Email));
+//            }
+//            foreach (var error in result.Errors)
+//            {
+//                NotificarErro(error.Description);
+//            }
 
-            return CostumResponse(registerUser);
-        }
+//            return CostumResponse(registerUser);
+//        }
 
-        [HttpPost("entrar")]
-        public async Task<ActionResult> Login(LoginUserViewModel loginUser)
-        {
-            if (!ModelState.IsValid) return CostumResponse(ModelState);
+//        [HttpPost("entrar")]
+//        public async Task<ActionResult> Login(LoginUserViewModel loginUser)
+//        {
+//            if (!ModelState.IsValid) return CostumResponse(ModelState);
 
-            var result = await _signInManager.PasswordSignInAsync(loginUser.Email, loginUser.Password, false, true);
+//            var result = await _signInManager.PasswordSignInAsync(loginUser.Email, loginUser.Password, false, true);
 
-            if (result.Succeeded)
-            {
-                _logger.LogInformation("Usuario " + loginUser.Email + " logado com sucesso");
-                return CostumResponse(await GerarJwt(loginUser.Email));
-            }
-            if (result.IsLockedOut)
-            {
-                NotificarErro("Usuário temporariamente bloqueado por tentativas inválidas");
-                return CostumResponse(loginUser);
-            }
+//            if (result.Succeeded)
+//            {
+//                _logger.LogInformation("Usuario " + loginUser.Email + " logado com sucesso");
+//                return CostumResponse(await GerarJwt(loginUser.Email));
+//            }
+//            if (result.IsLockedOut)
+//            {
+//                NotificarErro("Usuário temporariamente bloqueado por tentativas inválidas");
+//                return CostumResponse(loginUser);
+//            }
 
-            NotificarErro("Usuário ou Senha incorretos");
-            return CostumResponse(loginUser);
-        }
+//            NotificarErro("Usuário ou Senha incorretos");
+//            return CostumResponse(loginUser);
+//        }
 
-        private async Task<LoginResponseViewModel> GerarJwt(string email)
-        {
-            var user = await _userManager.FindByEmailAsync(email);
-            var claims = await _userManager.GetClaimsAsync(user);
-            var userRoles = await _userManager.GetRolesAsync(user);
+//        private async Task<LoginResponseViewModel> GerarJwt(string email)
+//        {
+//            var user = await _userManager.FindByEmailAsync(email);
+//            var claims = await _userManager.GetClaimsAsync(user);
+//            var userRoles = await _userManager.GetRolesAsync(user);
 
-            claims.Add(new Claim(JwtRegisteredClaimNames.Sub, user.Id));
-            claims.Add(new Claim(JwtRegisteredClaimNames.Email, user.Email));
-            claims.Add(new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()));
-            claims.Add(new Claim(JwtRegisteredClaimNames.Nbf, ToUnixEpochDate(DateTime.UtcNow).ToString()));
-            claims.Add(new Claim(JwtRegisteredClaimNames.Iat, ToUnixEpochDate(DateTime.UtcNow).ToString(), ClaimValueTypes.Integer64));
-            foreach (var userRole in userRoles)
-            {
-                claims.Add(new Claim("role", userRole));
-            }
+//            claims.Add(new Claim(JwtRegisteredClaimNames.Sub, user.Id));
+//            claims.Add(new Claim(JwtRegisteredClaimNames.Email, user.Email));
+//            claims.Add(new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()));
+//            claims.Add(new Claim(JwtRegisteredClaimNames.Nbf, ToUnixEpochDate(DateTime.UtcNow).ToString()));
+//            claims.Add(new Claim(JwtRegisteredClaimNames.Iat, ToUnixEpochDate(DateTime.UtcNow).ToString(), ClaimValueTypes.Integer64));
+//            foreach (var userRole in userRoles)
+//            {
+//                claims.Add(new Claim("role", userRole));
+//            }
 
-            var identityClaims = new ClaimsIdentity();
-            identityClaims.AddClaims(claims);
+//            var identityClaims = new ClaimsIdentity();
+//            identityClaims.AddClaims(claims);
 
-            var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes(_appSettings.Secret);
-            var token = tokenHandler.CreateToken(new SecurityTokenDescriptor
-            {
-                Issuer = _appSettings.Emissor,
-                Audience = _appSettings.ValidoEm,
-                Subject = identityClaims,
-                Expires = DateTime.UtcNow.AddHours(_appSettings.ExpiracaoHoras),
-                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
-            });
+//            var tokenHandler = new JwtSecurityTokenHandler();
+//            var key = Encoding.ASCII.GetBytes(_appSettings.Secret);
+//            var token = tokenHandler.CreateToken(new SecurityTokenDescriptor
+//            {
+//                Issuer = _appSettings.Emissor,
+//                Audience = _appSettings.ValidoEm,
+//                Subject = identityClaims,
+//                Expires = DateTime.UtcNow.AddHours(_appSettings.ExpiracaoHoras),
+//                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+//            });
 
-            var encodedToken = tokenHandler.WriteToken(token);
+//            var encodedToken = tokenHandler.WriteToken(token);
 
-            var response = new LoginResponseViewModel
-            {
-                AccessToken = encodedToken,
-                ExpiresIn = TimeSpan.FromHours(_appSettings.ExpiracaoHoras).TotalSeconds,
-                UserToken = new UserTokenViewModel
-                {
-                    Id = user.Id,
-                    Email = user.Email,
-                    Claims = claims.Select(c => new ClaimViewModel { Type = c.Type, Value = c.Value })
-                }
-            };
+//            var response = new LoginResponseViewModel
+//            {
+//                AccessToken = encodedToken,
+//                ExpiresIn = TimeSpan.FromHours(_appSettings.ExpiracaoHoras).TotalSeconds,
+//                UserToken = new UserTokenViewModel
+//                {
+//                    Id = user.Id,
+//                    Email = user.Email,
+//                    Claims = claims.Select(c => new ClaimViewModel { Type = c.Type, Value = c.Value })
+//                }
+//            };
 
-            return response;
-        }
+//            return response;
+//        }
 
-        private static long ToUnixEpochDate(DateTime date)
-            => (long)Math.Round((date.ToUniversalTime() - new DateTimeOffset(1970, 1, 1, 0, 0, 0, TimeSpan.Zero)).TotalSeconds);
-    }
-}
+//        private static long ToUnixEpochDate(DateTime date)
+//            => (long)Math.Round((date.ToUniversalTime() - new DateTimeOffset(1970, 1, 1, 0, 0, 0, TimeSpan.Zero)).TotalSeconds);
+//    }
+//}
 

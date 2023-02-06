@@ -13,11 +13,10 @@ namespace Treinamentos.Api.Config
         public static IServiceCollection AddIdentityConfig(this IServiceCollection services,
             IConfiguration configuration)
         {
-            services.AddDbContext<ApplicationDbContext>(options =>
-            {
+            services.AddDbContext<ApplicationDbContext>(options =>  
                 options.UseMySql("server=mysql-banco-api.mysql.database.azure.com;initial catalog=TreinamentosDB;uid=MysqlRoot;pwd=Mudar#123",
-                Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.0-mysql")).UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
-            });
+                Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.0-mysql")).UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));
+           
 
             services.AddDefaultIdentity<IdentityUser>()
             .AddRoles<IdentityRole>()

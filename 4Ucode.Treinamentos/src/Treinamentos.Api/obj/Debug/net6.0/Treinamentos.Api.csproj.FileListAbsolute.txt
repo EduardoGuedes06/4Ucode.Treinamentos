@@ -3,8 +3,8 @@ C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\obj\Debug\net6.0\Treinamentos.Api.AssemblyInfoInputs.cache
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\obj\Debug\net6.0\Treinamentos.Api.AssemblyInfo.cs
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\obj\Debug\net6.0\Treinamentos.Api.csproj.CoreCompileInputs.cache
-C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\obj\Debug\net6.0\Treinamentos.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\obj\Debug\net6.0\Treinamentos.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\obj\Debug\net6.0\Treinamentos.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\appsettings.Development.json
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\appsettings.json
 C:\Projetos\C#\PROJETOS 4UCode\AZURE\4Ucode.Treinamentos\4Ucode.Treinamentos\src\Treinamentos.Api\bin\Debug\net6.0\Treinamentos.Api.staticwebassets.runtime.json
